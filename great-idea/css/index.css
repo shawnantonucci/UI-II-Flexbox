@@ -190,9 +190,31 @@ footer {
 .grid-sections {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: flex-start;
+	height: 400px;
+}
+
+.grid-sections .grid-border button {
+	margin-left: 0px;
+	margin-top: 20px;
 }
 
 .grid-border {
+	background: rgba(211, 211, 211, 0.459); 
+	margin: 30px;
 	border: solid black 1px;
+}
+
+.bottom-section {
+	margin-top: 40px;
+	display: flex;
+	flex-flow: nowrap
+}
+
+.bottom-section p {
+	width: 50%;
+}
+
+.bottom-section .services-info-img {
+	width: 600px;
 }
