@@ -90,25 +90,24 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 	width: 1800px;
 	height: auto;
-	border: solid red 2px;
+	border: solid red 1px;
 }
 
 .headerFlex {
 	display: flex;
-	flex-flow: wrap;
+	flex-flow: nowrap;
+	align-items: center;
 	width: 1800px;
-	height: 600px;
-	border: solid green 2px;
-}
-
-.headerFlex .header-img {
-
+	height: 500px;
+	justify-content: space-around;
 }
 
 button {
 	border: solid green 2px;
-	width: 100px;
-	height: auto;
+	width: 200px;
+	height: 40px;
+	font-size: 20px;
+	margin-left: 60px;
 }
 
 .container h1{
@@ -122,26 +121,25 @@ button {
 	text-align: center;
 }
 
-.container .headerFlex img{
-	width: 70%;
-	height: auto;    
+.container .headerFlex img{  
+	margin-right: 100px;
 	border-radius: 50%;
 	-webkit-transition: -webkit-transform .8s ease-in-out;
 			transition:         transform .8s ease-in-out;
 
 }
 
-section .middle-img {
+.middle-img {
 	justify-content: center;
 	width: 100%;
 	height: auto;  
 }
 
-.section-line {
-	border-top: black solid 1px;
-	margin-top: 30px;
-	padding-top: 30px; 
-	font-size: 0;
+.container .section-line {
+	display: flex;
+	width: 100%;
+	flex-flow: nowrap;
+	height: 200px;
 }
 
 .header-line {
@@ -149,11 +147,7 @@ section .middle-img {
 }
 
 p {
-	text-align: justify;
-	text-justify: auto;
 	font-size: 18px;
-	flex-flow: column wrap;
-	
 }
 
 img:hover {
