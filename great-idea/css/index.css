@@ -60,7 +60,9 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	font-size: 50px;
+	font-weight: bold;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
@@ -129,12 +131,25 @@ button {
 }
 
 .middle-img {
+	margin-top: 40px;
 	justify-content: center;
 	width: 100%;
 	height: auto;  
 }
 
 .container .section-line {
+	border-bottom: solid black 1px;
+	padding-top: 40px; 
+	display: flex;
+	width: 100%;
+	flex-flow: nowrap;
+	height: 200px;
+	margin-top: 40px;
+}
+
+.container .section-line2 {
+	border-top: solid black 1px;
+	padding-top: 40px; 
 	display: flex;
 	width: 100%;
 	flex-flow: nowrap;
@@ -147,7 +162,7 @@ button {
 }
 
 p {
-	font-size: 18px;
+	font-size: 22px;
 }
 
 img:hover {
@@ -159,4 +174,29 @@ footer {
 	text-align: center;
 	margin-top: 50px;
 	padding-bottom: 100px; 
+}
+
+.services-header-img {
+	width: 100%;
+}
+
+.container .contact-margin {
+	margin-top: 40px;
+}
+
+.services-layout {
+	border: solid red 1px;
+}
+
+.grid-sections {
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+	align-content: center;
+	width: 500px;
+	height: auto;
+}
+
+.grid-border {
+	border: solid black 1px;
 }
