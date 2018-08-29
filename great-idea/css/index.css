@@ -64,3 +64,119 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.main-nav {
+	display: inline-block;
+	position: fixed;
+	background: blue;
+	padding: 20px;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+}
+
+.main-nav .logo {
+	position: relative;
+	padding-top: 10px;
+	margin-left: 450px;
+	width: 150px;
+	height: auto;
+}
+
+.main-nav a:link {
+	position: relative;
+	margin-right: 80px;
+	padding-bottom: 25px;
+	color: white;
+	text-decoration: none;
+}
+
+
+.container {
+	width: 1400px;
+	height: auto;
+	margin: 0 auto;
+}
+.header-hero {
+	display: inline-block;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	width: 50%;
+	height: auto;
+}
+
+.header-hero2 {
+	display: inline-block;
+	padding-top: 50px;
+	width: 30%;
+	height: auto;
+}
+
+.container .header-hero h1{
+	position: relative;
+	font-size: 80px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.container .header-hero button{
+	position: relative;
+	background: white;
+	font-size: 10px;
+	margin-left: 38%;
+	padding: 5px 45px 5px 45px;
+	text-align: center;
+}
+
+.container .header-hero img{
+	position: relative;
+	margin-top: 50px;
+	margin-left: 200px;
+	width: 70%;
+	height: auto;    
+	
+	border-radius: 50%;
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+			transition:         transform .8s ease-in-out;
+
+}
+
+.middle-img {
+	width: 100%;
+}
+
+footer {
+	text-align: center;
+	margin-top: 50px;
+	padding-bottom: 100px; 
+}
+
+.section-line {
+	border-top: black solid 1px;
+	margin-top: 30px;
+	padding-top: 30px; 
+	font-size: 0;
+}
+
+.header-line {
+	font-size: 0px;
+}
+
+.container .section-line div:nth-child(2) {
+	padding-left: 50px; 
+}
+
+.container .header-hero2:nth-child(2) {
+	margin-left: 70px;
+}
+
+p {
+	text-align: justify;
+	text-justify: auto;
+	font-size: 18px;
+}
+
+img:hover {
+	-webkit-transform: rotate(360deg);
+			transform: rotate(360deg);
+} 
